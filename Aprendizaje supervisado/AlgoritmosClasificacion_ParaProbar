@@ -1,0 +1,17 @@
+Regresión Logística: A pesar de su nombre, es un algoritmo de clasificación binaria. Es simple, rápido y funciona bien para problemas linealmente separables.
+
+Árboles de Decisión: Son fáciles de entender e interpretar. Pueden manejar tanto datos numéricos como categóricos, y pueden capturar relaciones no lineales en los datos.
+
+Bosques Aleatorios (Random Forests): Es un ensamble de múltiples árboles de decisión. Ofrece mejor generalización y menos sobreajuste que un solo árbol de decisión.
+
+Máquinas de Vectores de Soporte (SVM): Son eficaces en espacios de alta dimensionalidad y funcionan bien en casos donde hay una clara separación entre clases.
+
+K-Vecinos Más Cercanos (K-Nearest Neighbors, KNN): Clasifica los puntos de datos basándose en las clases de sus vecinos más cercanos. Es simple y fácil de entender, pero puede ser computacionalmente costoso en conjuntos de datos grandes.
+
+Redes Neuronales Artificiales (ANN): Modelos inspirados en el cerebro humano que pueden capturar relaciones complejas en los datos. Son potentes pero pueden requerir más datos y tiempo de entrenamiento.
+
+Gradient Boosting Machines (GBM): Similar a Random Forests, pero construye árboles de decisión de forma secuencial, tratando de corregir los errores de los modelos anteriores.
+
+AdaBoost: Un método de ensamble que construye un clasificador fuerte a partir de varios clasificadores débiles. Se centra más en corregir los errores cometidos por modelos anteriores.
+
+Naive Bayes: Basado en el teorema de Bayes, asume independencia entre las características. Es simple y rápido, y funciona bien en conjuntos de datos grandes y de alta dimensionalidad.
