@@ -1,0 +1,52 @@
+Funcionamiento de una Red Neuronal Artificial (RNA)
+
+Las redes neuronales artificiales son modelos computacionales inspirados en el funcionamiento del cerebro humano. Consisten en capas de neuronas interconectadas que procesan datos para realizar tareas de aprendizaje automático, como la clasificación o la regresión.
+
+Componentes Básicos:
+
+1. Neuronas (Nodos):
+- Cada neurona recibe múltiples entradas ponderadas, las suma y aplica una función de activación para producir una salida.
+- La función de activación puede ser lineal (para capas de entrada), no lineal (para capas ocultas) o softmax (para capas de salida en clasificación).
+
+2. Capas:
+- Las neuronas están organizadas en capas: capa de entrada, capas ocultas y capa de salida.
+- Capa de entrada: Recibe los datos originales.
+- Capas ocultas: Procesan y transforman las características.
+- Capa de salida: Produce la salida final (por ejemplo, la predicción en clasificación).
+
+3. Conexiones Ponderadas (Pesos):
+- Cada conexión entre neuronas tiene un peso que determina la importancia de la entrada en la neurona siguiente.
+- Durante el entrenamiento, los pesos se ajustan iterativamente para minimizar la función de pérdida y mejorar la precisión del modelo.
+
+Proceso de Entrenamiento:
+
+1. Forward Propagation (Propagación hacia adelante):
+- Los datos se introducen en la red y se propagan a través de las capas.
+- En cada capa, se calcula la salida de las neuronas mediante combinaciones lineales y aplicaciones de funciones de activación.
+
+2. Cálculo de Pérdida:
+- Se compara la salida predicha con las etiquetas reales utilizando una función de pérdida (como la entropía cruzada para clasificación o el error cuadrático medio para regresión).
+
+3. Backpropagation (Retropropagación):
+- Se calcula el gradiente de la función de pérdida con respecto a los pesos de la red utilizando el algoritmo de retropropagación.
+- Los pesos se actualizan en función del gradiente para minimizar la pérdida en el próximo ciclo de entrenamiento.
+
+4. Optimización:
+- Se utilizan optimizadores (como Adam, SGD, RMSprop) para ajustar los pesos de manera eficiente durante el entrenamiento.
+
+Evaluación y Predicción:
+
+1. Evaluación:
+- Después del entrenamiento, se evalúa el rendimiento del modelo en un conjunto de datos de prueba independiente.
+- Se calculan métricas como precisión, exactitud, F1-score, etc., para medir la calidad de las predicciones del modelo.
+
+2. Predicción:
+- Una vez entrenado, el modelo puede utilizarse para hacer predicciones sobre nuevos datos de entrada.
+- Las predicciones se obtienen aplicando forward propagation a través de la red neuronal con los pesos entrenados.
+
+Características Clave:
+
+- Flexibilidad: Pueden modelar relaciones complejas entre variables.
+- Capacidad de Generalización: Aprenden patrones a partir de datos y pueden generalizar a nuevos ejemplos.
+- Aprendizaje Supervisado: Se entrenan con ejemplos etiquetados para aprender a realizar tareas específicas.
+- Aprendizaje Profundo: Redes neuronales profundas (deep learning) utilizan múltiples capas ocultas para aprender representaciones jerárquicas de los datos.
